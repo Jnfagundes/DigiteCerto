@@ -48,3 +48,36 @@ hr{
     margin-left: 95px;
 
 }
+
+section{
+    border: solid 1px black;
+    width: 99%;
+    height: 700px;
+    margin: auto;
+}
+
+#botao{
+    border: solid 1px black;
+    width: 125px;
+    height: 30px;
+    margin: auto;
+    margin-top: 280px;
+}
+
+#botaoComecar{
+    background-color: rgb(40, 51, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: auto;
+    padding: 5px;
+
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    margin-top: 30px;
+}
