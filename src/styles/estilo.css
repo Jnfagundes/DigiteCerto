@@ -25,13 +25,13 @@ header{
 
 nav{
     height: 25px;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-top: 78px;
 }
 
 a{
     margin: -3px;
-    padding: 7px;
+    padding: 7px 20px 7px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     text-decoration: none;
@@ -42,6 +42,11 @@ a{
 
 }
 
+a:hover{
+    background-color: rgb(4, 92, 51);
+    color: white;
+    font-weight: bolder;
+}
 hr{
     width: 87%;
     border: solid 1px black;
@@ -50,24 +55,40 @@ hr{
 }
 
 section{
-    border: solid 1px black;
     width: 99%;
-    height: 700px;
+    height: 600px;
     margin: auto;
 }
 
+#digitecerto{
+    width: 440px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+#logodigite{
+    width: 430px;
+    height: 290px;
+    margin: auto;
+    
+}
+
+
+
 #botao{
-    border: solid 1px black;
     width: 125px;
     height: 30px;
     margin: auto;
-    margin-top: 280px;
+    margin-top: 100px;
+    margin-left: 480px;
 }
 
 #botaoComecar{
     background-color: rgb(40, 51, 47);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: bolder;
     margin: auto;
     padding: 5px;
